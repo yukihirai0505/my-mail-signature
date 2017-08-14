@@ -1,0 +1,34 @@
+.signature-table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  max-width: 100%;
+  color: rgb(17,17,17);
+  font-family: Arial;
+  font-size: 12.8px;
+}
+.signature-line {
+  border-left: 3px solid rgb(0,168,157);
+  padding: 0px 0px 3px 6px;
+  width: 42px;
+  border-top-color: rgb(0,168,157);
+  border-right-color: rgb(0,168,157);
+  border-bottom-color: rgb(0,168,157);
+}
+.profile-pic {
+  height: 120px;
+  width: 120px;
+  border-radius: 20px
+}
+.sns-icon {
+  text-decoration: none;
+}
+.company-link {
+  background: transparent;
+  color: rgb(120,120,120);
+}
+.info-label {
+  color: rgb(0,168,157);
+}
+.gray {
+  color: rgb(120,120,120);
+}
