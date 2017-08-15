@@ -1,3 +1,10 @@
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 1px;
+  color: rgb(120,120,120);
+}
+
 .signature-table {
   border-collapse: collapse;
   border-spacing: 0px;
