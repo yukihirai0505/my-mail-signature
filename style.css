@@ -4,7 +4,9 @@ p {
   font-size: 1px;
   color: rgb(120,120,120);
 }
-
+p>span {
+  color: rgb(0,168,157);
+}
 .signature-table {
   border-collapse: collapse;
   border-spacing: 0px;
@@ -12,6 +14,10 @@ p {
   color: rgb(17,17,17);
   font-family: Arial;
   font-size: 12.8px;
+}
+.position-name {
+  font-weight: bold;
+  color: rgb(120,120,120);
 }
 .signature-line {
   border-left: 3px solid rgb(0,168,157);
@@ -21,20 +27,17 @@ p {
   border-right-color: rgb(0,168,157);
   border-bottom-color: rgb(0,168,157);
 }
+.signature-line a {
+  text-decoration: none;
+}
 .profile-pic {
   height: 120px;
   width: 120px;
   border-radius: 20px
 }
-.sns-icon {
-  text-decoration: none;
-}
 .company-link {
   background: transparent;
   color: rgb(120,120,120);
-}
-.info-label {
-  color: rgb(0,168,157);
 }
 .gray {
   color: rgb(120,120,120);
